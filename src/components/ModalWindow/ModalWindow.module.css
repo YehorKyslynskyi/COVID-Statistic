@@ -1,0 +1,68 @@
+.myModal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: none;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.myModalContent {
+  padding: 10px;
+  background: #ffffff;
+  border-radius: 20px;
+  width: 421px;
+}
+
+.myModal.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myModalTitle {
+  font-size: 30px;
+  text-align: center;
+}
+
+.myModalRow {
+  display: flex;
+  flex-direction: row;
+  width: 401px;
+  color: #666666;
+  font-family: "Roboto400";
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.myModalImg {
+  width: 7.13%;
+  text-align: center;
+}
+
+.myModalTotal {
+  width: 70%;
+  font-family: "Roboto400";
+  padding-left: 25px;
+  padding-top: 3px;
+}
+
+.myModalValue {
+  width: 22.87%;
+  font-family: "Roboto400";
+  text-align: right;
+  padding-right: 10px;
+  padding-top: 3px;
+}
+
+.font {
+  font-family: "Roboto400";
+}
+
+@font-face {
+  font-family: "Roboto400";
+  src: url("../../styles/fonts/roboto/Roboto-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
